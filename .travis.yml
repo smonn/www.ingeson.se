@@ -9,7 +9,7 @@ deploy:
   secret_access_key:
     secure: O0mIOK14HyPGufK2AfEO5SzUHp6+euJ7ZJSucDSsA36taSUZvbLt36vy758az/DSqeZhyPeWJJV+hMBFKwx9KFwGYJhrDDx7wUBLoGPccLtU2+JrfrY6a/X4dLuHICIcRY3SB2PfpXGXy9UbT+N3D2GrqVGG+wIlkaAkCSAB6k5KWlj/aCx1qty4c/2dmDViX2vgpoX7mPxbCzAwSQW+mpaPTlFCz+v0ipympx6o/NJ/mbMIuV4ZS2dt95z33sd4hZSxRZeib7fTdiDVJGolhAS9avuxQg5A/WX1jO1Np1/vcghuMeqes9+P4dNytelloR6g6nNLQjyeP0qo522OltEvvEi6lls9AJJzPfvFZxpdnXebf4QPnZ1qmeqAHdMF9u26HRjBQncifffXGxlcoT/l6bG8htDrpMgiXtr1trjxWfMIOclS00gApXea9SJfpQNWrOFVy2W231T2gM2c/qqzdZdNl2q+liwLVjTylYpuBxKwZnIXDE6w5vc5m/rRnRrKV+BnrhEaFX9zuq4VVka92me6VSG+s+gB/j2clSxR2PsIVtfUvbh1Bm7TfZldaciSBAcSDK8S82l+xeQkavIuQT9exK5DKv54mcptdWrnKCZq8qSWl41Epe17XIheyFuxE/XWJrRakJOCMid6k9RgU/2qBGltG6PXJSL3T1E=
   bucket: aws-website-ingeson-cwqon
-  local_dir: dist
+  local_dir: ./dist
   on:
     repo: smonn/ingeson_se
 
